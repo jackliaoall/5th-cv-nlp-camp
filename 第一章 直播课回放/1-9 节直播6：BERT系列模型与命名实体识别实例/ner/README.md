@@ -6,6 +6,7 @@ pip install datasets
 
 pip install seqeval
 
+
 Run:
 
 python trainNer.py
