@@ -1,13 +1,13 @@
 Setup:
 
-pip install transformers
+- pip install transformers
 
-pip install datasets
+- pip install datasets
 
-pip install seqeval
+- pip install seqeval
 
-#Run:
+Run:
 
-python trainNer.py
+- python trainNer.py
 
-python demoNer.py
+- python demoNer.py
