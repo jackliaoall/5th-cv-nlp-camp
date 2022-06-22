@@ -4,11 +4,9 @@ pip install transformers
 
 pip install datasets
 
-pip install seqeval  
+pip install seqeval
 
-
-
-Run:
+#Run:
 
 python trainNer.py
 
