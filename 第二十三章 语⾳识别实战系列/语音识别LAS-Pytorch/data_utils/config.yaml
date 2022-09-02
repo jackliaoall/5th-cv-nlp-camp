@@ -1,0 +1,13 @@
+input_feat_dim: 257   ## Audio feature dimension for 16KHz 
+enc_hidden_dim: 128   ## Encoder RNN hidden dimension
+n_layers_enc: 4     ## Number of Encoder layers
+vocab_size: 30        ## VOcabulary size
+max_out_len: 100        ## Maximum output length
+dec_hidden_dim: 256   ## Decoder RNN hidden dimension
+n_layers_dec: 1       ## Number of decoder layers
+sos_id: 1             ## start of sentence ID in vocab
+eos_id: 2             ##ENd of sentence ID in vocab
+use_gpu: 1
+batch_size: 64
+num_epochs: 1000
+pad_token: 1         #### Check your vocabulary for proper ID
