@@ -1,0 +1,11 @@
+/tmp
+/input_data
+.vscode
+*.pyc
+.DS_Store
+/processed
+/raw
+/data
+/interm_data
+/trained_params
+*.h5
